@@ -1,0 +1,38 @@
+
+.card {
+  background-color: #282828;
+  color: white;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #3E3E3E;
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artist, .album {
+  margin: 4px 0;
+  color: #b3b3b3;
+  font-size: 0.9rem;
+}
+
+.tags {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #1db954; 
+}
